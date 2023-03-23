@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    font-family: "Playfair Display", serif;
+}
+
+body{
+    background: url(rss/tree-g43e6ae5f4_1280.jpg) no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+/************** nav ****************/
+header{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3em;
+    background-color: rgba(180, 45, 11, 0.747);
+    border-radius: 50px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 3em;
+    font-size: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/******** project ***********/
+
+#project{
+    height: 100%;
+
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    color: white;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+
+/********** footer ************/
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+footer div{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 50px;
+    color: white;
+}
+footer a{
+    color: white;
+    padding: 5px;
+}
+footer p{
+    padding-top: 10px;
+}

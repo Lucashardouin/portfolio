@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    font-family: "Playfair Display", serif;
+}
+
+body{
+    background: url(rss/halloween-gaf0ff8d8c_1920.jpg) center no-repeat;
+}
+
+/************** nav ****************/
+header{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3em;
+    background-color: rgba(180, 45, 11, 0.747);
+    position: fixed;
+    z-index: 99;
+    border-radius: 50px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 3em;
+    font-size: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/******** project ***********/
+
+
+
+
+/********** footer ************/
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+footer div{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 50px;
+    color: white;
+}
+footer a{
+    color: white;
+    padding: 5px;
+}
+footer p{
+    padding-top: 10px;
+}

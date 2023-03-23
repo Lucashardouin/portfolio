@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    font-family: "Playfair Display", serif;
+}
+
+body{
+    background: url(rss/halloween-gaf0ff8d8c_1920.jpg) no-repeat;
+    height: 100%;
+}
+
+/************** nav ****************/
+header{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3em;
+    background-color: rgba(180, 45, 11, 0.747);
+    border-radius: 50px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 3em;
+    font-size: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/************** ABOUT **************/
+
+#about{
+    height: 100%;
+    padding-top: 100px;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    color: white;
+    flex-direction: column;
+}
+.title hr{
+    width: 60px;
+    margin-top: 20px;
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-about{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 100px;
+}
+.left-about img{
+    width: 50%;
+}
+.left-about p{
+    text-align: center;
+    width: 80%;
+    padding-top: 20px;
+    color: white;
+    line-height: 2;
+}
+
+.right-container{
+    height: 100%;
+    width: 40%;
+    justify-content: center;
+    align-self: center;
+}
+
+.bar{
+    height: 50px;
+    display: flex;
+    color: white;
+    background-color: rgba(6, 8, 4, 0.863);
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+.border{
+    border: 1px solid black;
+    /* border-radius: 50px; */
+}
+.fill{
+    left: 0;
+    position: absolute;
+    background-color: rgba(180, 45, 11, 0.747);
+    
+}
+.skills{
+    height: 100%;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    left: 0;
+    position: absolute;
+    padding-left: 5px;
+}
+
+.right-container span{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 10px;
+    z-index: 1;
+}
+
+/********** footer ************/
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+footer div{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 50px;
+    color: white;
+}
+footer a{
+    color: white;
+    padding: 5px;
+}
+footer p{
+    padding-top: 10px;
+}
