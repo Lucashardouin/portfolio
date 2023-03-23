@@ -1,0 +1,21 @@
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 50px;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    bottom: 0;
+}
+
+footer a{
+    color: white;
+    padding: 5px;
+}
+footer p{
+    padding-top: 10px;
+}

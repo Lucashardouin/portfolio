@@ -4,7 +4,10 @@
 }
 
 body{
-    background: url(rss/halloween-gaf0ff8d8c_1920.jpg) center no-repeat;
+    background: url(rss/orion-nebula-g6439130ec_1920.jpg) no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: relative;
 }
 
 /************** nav ****************/
@@ -41,32 +44,38 @@ nav ul li a{
 }
 
 
-/******** project ***********/
+/******** experience ***********/
 
-
-
-
-/********** footer ************/
-
-footer{
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
+#experience{
+    height: 100%;
+    margin-bottom: 50px;
+    padding-top: 50px;
 }
-footer div{
-    width: 20%;
+
+.title{
     display: flex;
     align-items: center;
-    justify-content: center;
+    font-size: 35px;
+    color: white;
     flex-direction: column;
+    margin-top: 100px;
+}
+
+.exp-container{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    height: 550px;
+    align-items: center;
+
+}
+.exp-container hr{
+    height: 100px;
+}
+
+.exp-container span{
+    margin-right: 10px;
     padding: 5px;
+    background-color: rgba(180, 45, 11, 0.747);
     border-radius: 50px;
-    color: white;
-}
-footer a{
-    color: white;
-    padding: 5px;
-}
-footer p{
-    padding-top: 10px;
 }

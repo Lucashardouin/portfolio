@@ -6,6 +6,7 @@
 body{
     background: url(rss/halloween-gaf0ff8d8c_1920.jpg) no-repeat;
     height: 100%;
+    position: relative;
 }
 
 /************** nav ****************/
@@ -44,6 +45,7 @@ nav ul li a{
 #about{
     height: 100%;
     padding-top: 100px;
+    margin-bottom: 70px;
 }
 
 .title{
@@ -127,29 +129,4 @@ nav ul li a{
     justify-content: end;
     padding-right: 10px;
     z-index: 1;
-}
-
-/********** footer ************/
-
-footer{
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-}
-footer div{
-    width: 20%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 5px;
-    border-radius: 50px;
-    color: white;
-}
-footer a{
-    color: white;
-    padding: 5px;
-}
-footer p{
-    padding-top: 10px;
 }
